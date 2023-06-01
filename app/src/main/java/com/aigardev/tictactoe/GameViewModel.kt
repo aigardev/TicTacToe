@@ -28,6 +28,9 @@ class GameViewModel: ViewModel() {
             UserAction.PlayAgainButtonClicked -> {
                 gameReset()
             }
+            UserAction.ResetGameButtonClicked -> {
+                gameReset()
+            }
         }
     }
 
